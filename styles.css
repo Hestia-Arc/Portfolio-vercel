@@ -1,7 +1,34 @@
 body {
 
 }
+/*container*/
 #container {
     display: flex;
     flex-direction: ;
+    border: 2px solid blue;
+    justify-content: space-between;
+
+}
+/*side navigation*/
+.side {
+    padding: 2em;
+}
+ul {
+    list-style: none;
+    margin: 2em 0;
+    padding-inline-start: 0;
+    margin-left: -0.5em;
+}
+li {
+    padding: 0.5em;
+    background-color: brown;
+    border: 2px solid white;
+    color: white;
+}
+
+
+/*main*/
+
+.main {
+    padding: 2em;;
 }
