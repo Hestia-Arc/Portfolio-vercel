@@ -7,16 +7,18 @@ body {
     flex-direction: ;
     border: 2px solid blue;
     max-width: 100vw;
+    height: 95vh;
 
 }
 /*side navigation*/
 .side {
     padding: 2em;
-    border: 2px solid greenyellow;
+    border: 2px solid #adff2f;
+    width: 20vw;
 }
 ul {
     list-style: none;
-    margin: 2em 0;
+    margin: 4em 0;
     padding-inline-start: 0;
     margin-left: -0.5em;
 }
@@ -25,6 +27,7 @@ li {
     background-color: brown;
     border: 2px solid white;
     color: white;
+    font-size: 1.5rem;
 }
 
 
@@ -33,6 +36,30 @@ li {
 .main {
     padding: 1em;
     border: 2px solid greenyellow;
+    width: 70vw;
     
+
+}
+.salute {
+    margin-top: 2em;
+    font-size: 3em;
+
+}
+.tagline {
+    font-size: 3em;
+
+}
+.work {
+    margin-top: 4em;
+    
+}
+.hire {
+
+
+}
+button {
+    padding: 1em;
+    margin: 2px;
+    border-radius: 8px;
 
 }
