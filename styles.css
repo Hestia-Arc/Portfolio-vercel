@@ -6,12 +6,13 @@ body {
     display: flex;
     flex-direction: ;
     border: 2px solid blue;
-    justify-content: space-between;
+    max-width: 100vw;
 
 }
 /*side navigation*/
 .side {
     padding: 2em;
+    border: 2px solid greenyellow;
 }
 ul {
     list-style: none;
@@ -30,5 +31,8 @@ li {
 /*main*/
 
 .main {
-    padding: 2em;;
+    padding: 2em;
+    border: 2px solid greenyellow;
+    
+
 }
