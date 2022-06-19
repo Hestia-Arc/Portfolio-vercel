@@ -14,27 +14,20 @@
 }
 /*side navigation*/
 .side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: fixed;
     top: 0;
     right: 0;
-    padding: 2em;
-    border: 2px solid #adff2f;
-    width: 10vw;
-    height: 70vh;
+    bottom: 0;
+    padding: 0.4em;
+    background-color: rgb(214, 178, 178);
+    width: 30px;
+    height: 83vh;
+    font-size: 30px;
 }
-ul {
-    list-style: none;
-    margin: 4em 0;
-    padding-inline-start: 0;
-    margin-left: -0.5em;
-}
-li {
-    padding: 0.5em 0;
-    background-color: brown;
-    border: 2px solid white;
-    color: white;
-    font-size: 1rem;
-}
+
 
 
 /*main*/
