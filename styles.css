@@ -17,6 +17,8 @@
     height: 95vh;
 
 }
+
+/*---homepage*/
 /*side navigation*/
 .side {
     display: flex;
@@ -100,3 +102,23 @@ button {
     border-radius: 8px;
 
 }
+
+
+/*---About page*/
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+/*profile*/
+.profile {
+    height: 60px;
+    text-align: center;
+    border: 2px solid red;
+}
+/*pro-details*/
+.pro-details {
+    display: flex;
+    justify-content: space-between;
+}
+
