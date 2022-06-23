@@ -78,13 +78,35 @@
 }
 .salute {
     margin-top: 2em;
-    font-size: 3em;
+    /* font-size: 1.8em; */
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 
+}
+.name {
+    /* font-size: 3em; */
+    /* padding-left: 0.6em; */
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
+
+}
+.name-big {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+.name-set {
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 50px 50px 50px;
+    font-size: ;
 }
 .tagline {
-    font-size: 3em;
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
 
 }
+
 .work {
     margin-top: 4em;
     
