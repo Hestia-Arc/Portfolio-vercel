@@ -13,7 +13,7 @@ html {
 #container {
     display: flex;
     flex-direction: column;
-    padding: 0 20px;
+    margin: 0 20px;
 }
 
 .homepage, .about-page, .work-page, .contact-page {
@@ -254,4 +254,18 @@ button {
     grid-column: 2 / 3;
     grid-row: 4 / 5;
 
+}
+
+
+
+
+/* footer section */
+footer {
+    text-align: center;
+    height: 90px;
+    padding-top: 35px;
+    background-color: rgb(83, 59, 31);
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
 }
