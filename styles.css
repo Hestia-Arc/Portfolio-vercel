@@ -121,7 +121,9 @@ html {
     border: 2px solid green;
     padding: 4px;
     margin-top: 0.3em;
-    width: 16em;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    width: 17em;
     font-family: 'Courier New', Courier, monospace;
     
 }
