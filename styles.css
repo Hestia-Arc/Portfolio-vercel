@@ -78,7 +78,10 @@ html {
     width: 100vw;
     max-height: 90%;
     font-size: 2em;
+    background-color: #63686d;
+    color: #f3f3f3;
 }
+
 .name-set {
     display: grid;
     grid-template-columns: 8em 8em 1fr;
@@ -110,6 +113,7 @@ html {
     padding-top: 0.1em;
     padding-left: 5px;
     font-size: 5.5em;
+    color: rgb(71, 153, 179);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .tagline {
@@ -119,7 +123,10 @@ html {
 }
 .tag-border {
     margin-left: 4.8em;
-    border: 2px solid green;
+    border-radius: 10px;
+    background-color: teal;
+    color: #f3f3f3;
+    border: 2px solid rgb(187, 203, 207);
     padding: 4px;
     margin-top: 0.3em;
     letter-spacing: 0.1em;
@@ -147,6 +154,12 @@ button {
     border-radius: 8px;
     width: 7em;
     font-size: 1em;
+    border: 2px solid rgb(187, 203, 207);
+
+    color: ;
+    background-color: rgb(71, 153, 179);
+    color: #f3f3f3;
+
 }
 .left-icon {
     position: absolute;
