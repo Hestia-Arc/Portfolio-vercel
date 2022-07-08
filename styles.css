@@ -13,7 +13,9 @@ html {
 #container {
     display: flex;
     flex-direction: column;
-    margin: 0 20px;
+    /* margin: 0 20px; */
+    padding: 5px 40px;
+    background-color: #f3f3f3;
 }
 
 .homepage, .about-page, .work-page, .contact-page {
@@ -21,7 +23,11 @@ html {
     display: flex;
     max-width: 100vw;
     height: 100%;
-    border: solid 2px black;
+    border: solid 1px #e8e9e9;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    background-color: #e8e9e9;
+    color: #003c49;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -36,7 +42,7 @@ html {
     right: 0;
     bottom: 0;
     padding: 0.4em;
-    background-color: rgb(214, 178, 178);
+    background-color: #003c49;
     width: 24px;
     font-size: 20px;
 }
@@ -73,21 +79,19 @@ html {
 .main {
     display: flex;
     flex-direction: column;
-    padding: 1em;
+    padding: 0 1em;
     margin-bottom: 4em;
     width: 100vw;
     max-height: 90%;
     font-size: 2em;
-    background-color: #63686d;
-    color: #f3f3f3;
+    font
 }
 
 .name-set {
     display: grid;
     grid-template-columns: 8em 8em 1fr;
     grid-template-rows: 4em 2.6em 6em;
-    /* margin-left: 1em; */
-    
+    /* margin-left: 1em; */    
     
 }
 
@@ -100,7 +104,8 @@ html {
 
 }
 .name {
-    font-size: 2.5em;
+    font-size: 1.3em;
+    margin-left: 2.9em;
     padding-left: 1.9em;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
@@ -110,11 +115,11 @@ html {
 .name-big {
     grid-column: 2 / 4;
     grid-row: 1 / 3;
-    padding-top: 0.1em;
+    padding-top: 0.2em;
     padding-left: 5px;
     font-size: 5.5em;
-    color: rgb(71, 153, 179);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.1px;
 }
 .tagline {
     grid-column: 1 / 4;
@@ -122,28 +127,32 @@ html {
 
 }
 .tag-border {
-    margin-left: 4.8em;
+    margin-left: 12em;
     border-radius: 10px;
-    background-color: teal;
-    color: #f3f3f3;
-    border: 2px solid rgb(187, 203, 207);
+    background-color: #ffd399;
+    color: #003c49;
+    border: 1px solid #ffd399;
     padding: 4px;
     margin-top: 0.3em;
     letter-spacing: 0.1em;
-    font-size: 1em;
-    width: 17em;
+    font-size: 0.7em;
+    text-align: center;
+    width: 20em;
     font-family: 'Courier New', Courier, monospace;
     
 }
 .tag-2 {
-    margin-top: 15px;
-    margin-left: 2.4em;
+    margin-top: 0.4em;
+    margin-left: 1.5em;
     padding: 7px 0;
     min-height: 10%;
+    font-size: 1.8em;
+    color: #a3b2b5;
+    font-weight: 400;
 }
 
 .btn {
-    margin-top: 1.5em;
+    margin-top: 4em;
     margin-left: 2.2em;
 
     
@@ -153,12 +162,9 @@ button {
     margin: 2px;
     border-radius: 8px;
     width: 7em;
-    font-size: 1em;
-    border: 2px solid rgb(187, 203, 207);
-
-    color: ;
-    background-color: rgb(71, 153, 179);
-    color: #f3f3f3;
+    font-size: 0.7em;
+    border: 1px solid #ffd399;
+    background-color: #ffd399;
 
 }
 .left-icon {
@@ -334,7 +340,7 @@ footer {
     text-align: center;
     min-height: 10%;
     padding: 20px 0;
-    background-color: rgb(83, 59, 31);
+    background-color: #456870;
     color: beige;
     font-family: 'Courier New', Courier, monospace;
     font-size: 2em;
