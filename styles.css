@@ -80,17 +80,16 @@ html {
     display: flex;
     flex-direction: column;
     padding: 0 1em;
-    margin-bottom: 4em;
+    margin-bottom: 3em;
     width: 100vw;
     max-height: 90%;
     font-size: 2em;
-    font
 }
 
 .name-set {
     display: grid;
     grid-template-columns: 8em 8em 1fr;
-    grid-template-rows: 4em 2.6em 6em;
+    grid-template-rows: 4em 2.6em 10em;
     /* margin-left: 1em; */    
     
 }
@@ -153,7 +152,7 @@ html {
 }
 
 .btn {
-    margin-top: 4em;
+    margin-top: 1.5em;
     margin-left: 2.2em;
 
     
@@ -201,7 +200,8 @@ ul {
 /*about-details*/
 .about-details {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 20px;
     min-height: 40%;
     margin: 1em 0;
     background-color: #fff7ec;
@@ -216,15 +216,18 @@ ul {
 }
 .meet {
     margin-left: 40px;
-    padding: 5px;
+    padding-top: 25px;
+    font-size: 2em;
 }
 .meet-paragraph {
     padding: 40px;
 }
 .photo {
-    font-size: 2.5rem;
     padding: 5px;
 
+}
+img {
+    border-radius: 30px;
 }
 
 /* skills container */
