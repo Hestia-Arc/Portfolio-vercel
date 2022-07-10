@@ -157,6 +157,7 @@ html {
 
     
 }
+
 button {
     padding: 6px;
     margin: 2px;
@@ -168,11 +169,16 @@ button {
     color: #e8e9e9;
 
 }
+.work {
+    background-color: #456870;
+    border-color: #456870;
+}
 .left-icon {
-    position: absolute;
+    position: fixed;
     left: 0;
-    bottom: 34px;
-    margin-left: 40px;
+    bottom: 80px;
+    margin-left: 10px;
+    color: #16446b;
 
 }
 ul {
@@ -352,6 +358,7 @@ input {
 .form-button {
     margin: 0 20px;
     padding: 10px;
+    font-size: 1.4em;
 }
 
 /* footer section */
