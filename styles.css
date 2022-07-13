@@ -158,6 +158,9 @@ html {
     
 }
 
+button:hover {
+    background-color: #a3b2b5;
+}
 button {
     padding: 6px;
     margin: 2px;
