@@ -6,7 +6,7 @@ html {
 * {
     padding: 0;
     margin: 0;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
 
 }
 /*containers*/
@@ -405,45 +405,60 @@ footer {
 
 /* Mobile styles */
 @media screen and (max-width: 480px) {
+    /* main container */
+    #container {
+        display: flex;
+        padding: 6px 0;
+        margin: 0;
+        margin-top: 50px;
+    }
+    
+
     /*side navigation*/
-     .side {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: fixed;
-    top: 10;
-    left: 0;
+    #container {
+        position: relative;
+    }
+     nav {
+        position: sticky;
+        /* top: 0;  */
+        width: 100em;
+        height: 45px;
+        top: 0;
+        left: 0;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* position: fixed; */
     /* bottom: 0; */
-    padding: 0.4em;
+    /* padding: 0.4em; */
     background-color: #003c49;
-    width: 24px;
-    font-size: 20px;
+    /* width: 24px; */
+    /* font-size: 20px; */
+}
+.nav {
+    display: none;
 }
  
     
     /* main page */
     .homepage, .about-page, .work-page, .contact-page {
-        min-width: 50%;
+        width: 85vw;
         height: 100%;
     
     }
     .main {
-        padding: 0 1em;
+        padding: 0;
         margin-bottom: 3em;
-        min-width: 90%;
         max-height: 90%;
-        font-size: 2em;
+        font-size: 2.5em;
     }
     .name-set {
-        display: grid;
-        grid-template-columns: 5em 8em 1fr;
-        grid-template-rows: 3.6em 2em 10em;
-        /* margin-left: 1em; */    
-        
+        display: flex;
+        flex-direction: column;
     }
     
     .salute {
-        padding-top: 1.7em;
+        padding-top: 1.1em;
         padding-left: 0.5em;
         font-size: 1em;
     }
@@ -453,46 +468,37 @@ footer {
         padding-left: 0.5em;
     }
     .name-big {
-        padding-top: 0.35em;
+        padding-top: 0;
         padding-left: 2px;
         font-size: 3.5em;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        letter-spacing: 0.1px;
-        color: #cba676;
+        text-align: center;
     }
     .tagline {
-        grid-column: 1 / 4;
-        grid-row: 3 / 4;
-    
+        text-align: center;
+
     }
     .tag-border {
         border-radius: 10px;
-        color: #f3f3f3;
-        border: 1px solid #ffd399;
-        background-color: #a38a5b;
         padding: 4px;
-        margin-left: 2em;
-        margin-top: 0.2em;
+        margin-left: 30px;
+        margin-top: 0;
         letter-spacing: 0.1em;
         font-size: 0.5em;
-        text-align: center;
         width: 20em;
-        font-family: 'Courier New', Courier, monospace;
-        
     }
     .tag-2 {
         margin-top: 0.4em;
-        margin-left: 1em;
+        margin-left: 0;
         padding: 7px 0;
         min-height: 10%;
-        font-size: 1em;
-        color: #a3b2b5;
+        font-size: 0.8em;
         font-weight: 400;
     }
     
     .btn {
         margin-top: 1.3em;
-        margin-left: 2.2em;
+        margin-left: 0;
+        text-align: center;
     
         
     }
@@ -529,8 +535,8 @@ footer {
     /* about-page */
     /* About-flex */
 .about-flex {
-    width: 100vw;
-    padding: 15px;
+    width: 85vw;
+    padding: 0;
 
 }
 
@@ -538,15 +544,14 @@ footer {
 /*profile*/
 .profile {
     min-height: 70px;
-    font-size: 4.1rem;
+    font-size: 4rem;
     text-align: center;
 }
 
 /*about-details*/
 .about-details {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    column-gap: 20px;
+    display: flex;
+    flex-direction: column;
     min-height: 40%;
     margin: 1em 0;
     background-color: #fff7ec;
@@ -561,14 +566,15 @@ footer {
 }
 .meet {
     margin-left: 40px;
-    padding-top: 25px;
-    font-size: 2em;
+    padding-top: 15px;
+    font-size: 1.7em;
 }
 .meet-paragraph {
     padding: 40px;
 }
 .photo {
-    padding: 5px;
+    display: none;
+    padding: 0;
 
 }
 img {
@@ -578,21 +584,19 @@ img {
 
 /* skills container */
 .skill-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 4.5em 20em;
-    min-height: 20%;
-    row-gap: 15px;
-    column-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 70%;
+    padding: 0 15px;
 }
 .skill {
     text-align: center;
-    font-size: 4.1rem;
-    grid-column: 1 / 5;
+    font-size: 4rem;
 }
 .skill-parts {
-    background-color: #fff7ec;
+    height: 170px;
     border-radius: 30px;
+    padding: 0 15px;
 }
 
 
