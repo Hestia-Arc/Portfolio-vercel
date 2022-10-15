@@ -230,6 +230,9 @@ ul {
 }
 .meet-paragraph {
     padding: 40px;
+    line-height: 30px;
+    word-spacing: 3px;
+    letter-spacing: 0.4px;
 }
 .photo {
     padding: 5px;
@@ -256,6 +259,7 @@ img {
 .skill-parts {
     background-color: #fff7ec;
     border-radius: 30px;
+    text-align: center;
 }
 
 /* Work page */
@@ -278,6 +282,11 @@ img {
     text-align: center;
     font-size: 4.1rem;
     
+}
+
+.box-1, .box-2, .box-3 , .box-4, .box-5, .box-6 {
+    border-radius: 30px;
+    text-align: center;
 }
 .box-1 {
     grid-column: 1 / 2;
