@@ -364,6 +364,9 @@ footer {
         border-radius: 15px;
         font-size: 0.9rem;
     }
+    .left-icon {
+        margin-left: -32px;
+    }
 
     /* About Section */
     .about-section {
@@ -429,9 +432,45 @@ footer {
     /* Contact Section */
     .contact-section {
         flex-direction: column;
+        justify-content: flex-start;
+        height: 32rem;
     }
     .contact-column-one {
         width: 100%;
+        text-align: center;
+        margin-top: 0.6rem;
+    }
+    .contact-tag {
+        font-size: 2.5rem;
+        font-weight: 550;
+    }
+    .contact-tagline {
+        font-size: 1.1rem;
+        border: 1px solid lightseagreen;
+        padding: 0.3rem;
+        border-radius: 7px
+    }
+    .contact-column-two {
+        width: 100%;
+    }
+    input, textarea {
+        width: 79%;
+    }
+    .input-i {
+        padding-left: 2.3rem;
+    }
+    .icon-i {
+        top: 23%;
+        left: 4%;
+        padding: 0.4rem;
+        border-right: 2px solid #003c49;
+    }
+    .shift {
+        top: 6%;
+    }
+    .contact-button {
+        width: 90%;
+        border-radius: 5px;
     }
 
 
